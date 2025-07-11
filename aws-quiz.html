@@ -857,6 +857,561 @@
         answer: 3,
         explanation: "AWS SSO provides a consistent way to manage access to AWS resources across multiple accounts."
     }
+
+        ,
+    {
+        question: "A company needs to run a high-performance computing workload that requires hundreds of cores for a few hours. Which AWS service is most cost-effective?",
+        choices: [
+            "Amazon EC2 On-Demand",
+            "Amazon EC2 Reserved",
+            "Amazon EC2 Spot",
+            "AWS Lambda"
+        ],
+        answer: 2,
+        explanation: "EC2 Spot Instances are ideal for short-lived, high-performance workloads at a lower cost."
+    },
+    {
+        question: "Which AWS service allows you to create custom network appliances in your VPC?",
+        choices: [
+            "AWS Network Firewall",
+            "Amazon EC2",
+            "AWS Transit Gateway",
+            "AWS Gateway Load Balancer"
+        ],
+        answer: 3,
+        explanation: "AWS Gateway Load Balancer enables deployment of custom network appliances in your VPC."
+    },
+    {
+        question: "A company wants to automate the rotation of database credentials. Which AWS service should they use?",
+        choices: [
+            "AWS KMS",
+            "AWS Secrets Manager",
+            "AWS IAM",
+            "Amazon RDS"
+        ],
+        answer: 1,
+        explanation: "AWS Secrets Manager can automatically rotate database credentials."
+    },
+    {
+        question: "Which AWS service provides a managed Hadoop ecosystem for big data processing?",
+        choices: [
+            "Amazon EMR",
+            "AWS Glue",
+            "Amazon Redshift",
+            "Amazon Athena"
+        ],
+        answer: 0,
+        explanation: "Amazon EMR provides a managed Hadoop ecosystem for big data processing."
+    },
+    {
+        question: "A company needs to enforce encryption for all data stored in Amazon RDS. What should they enable?",
+        choices: [
+            "RDS encryption at rest",
+            "IAM policies",
+            "S3 default encryption",
+            "CloudTrail logging"
+        ],
+        answer: 0,
+        explanation: "Enabling RDS encryption at rest ensures all data is encrypted."
+    },
+    {
+        question: "Which AWS service provides a managed service for running Microsoft SQL Server databases?",
+        choices: [
+            "Amazon Aurora",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon Redshift"
+        ],
+        answer: 1,
+        explanation: "Amazon RDS supports managed Microsoft SQL Server databases."
+    },
+    {
+        question: "A company wants to restrict access to its VPC subnets based on security policies. Which feature should they use?",
+        choices: [
+            "Security Groups",
+            "Network ACLs",
+            "IAM roles",
+            "VPC Peering"
+        ],
+        answer: 1,
+        explanation: "Network ACLs allow you to restrict access to VPC subnets based on security policies."
+    },
+    {
+        question: "Which AWS service provides a managed service for real-time data streaming?",
+        choices: [
+            "Amazon Kinesis",
+            "Amazon SQS",
+            "Amazon SNS",
+            "AWS Glue"
+        ],
+        answer: 0,
+        explanation: "Amazon Kinesis provides managed real-time data streaming."
+    },
+    {
+        question: "A company needs to store large volumes of log data for analysis. Which AWS service is best?",
+        choices: [
+            "Amazon S3",
+            "Amazon EFS",
+            "Amazon DynamoDB",
+            "Amazon RDS"
+        ],
+        answer: 0,
+        explanation: "Amazon S3 is ideal for storing large volumes of log data for analysis."
+    },
+    {
+        question: "Which AWS service provides a managed service for running Docker containers without managing servers?",
+        choices: [
+            "Amazon ECS with Fargate",
+            "Amazon EC2",
+            "Amazon EKS",
+            "AWS Lambda"
+        ],
+        answer: 0,
+        explanation: "Amazon ECS with Fargate runs Docker containers without server management."
+    },
+    {
+        question: "A company wants to monitor and analyze DNS queries for security threats. Which AWS service should they use?",
+        choices: [
+            "Amazon GuardDuty",
+            "AWS Shield",
+            "AWS WAF",
+            "AWS Firewall Manager"
+        ],
+        answer: 0,
+        explanation: "Amazon GuardDuty analyzes DNS queries for security threats."
+    },
+    {
+        question: "Which AWS service provides a managed service for storing and retrieving secrets?",
+        choices: [
+            "AWS Secrets Manager",
+            "AWS KMS",
+            "AWS IAM",
+            "Amazon S3"
+        ],
+        answer: 0,
+        explanation: "AWS Secrets Manager securely stores and retrieves secrets."
+    },
+    {
+        question: "A company needs to ensure that only authorized users can access its EC2 instances. Which feature should they use?",
+        choices: [
+            "Security Groups",
+            "IAM roles",
+            "Key pairs",
+            "Network ACLs"
+        ],
+        answer: 2,
+        explanation: "Key pairs are used to authenticate authorized users for EC2 instance access."
+    },
+    {
+        question: "Which AWS service provides a managed service for building and deploying machine learning models?",
+        choices: [
+            "Amazon SageMaker",
+            "Amazon EMR",
+            "AWS Lambda",
+            "Amazon Redshift"
+        ],
+        answer: 0,
+        explanation: "Amazon SageMaker is a managed service for building and deploying machine learning models."
+    },
+    {
+        question: "A company wants to automate the deployment of infrastructure using templates. Which AWS service should they use?",
+        choices: [
+            "AWS CloudFormation",
+            "AWS OpsWorks",
+            "AWS Elastic Beanstalk",
+            "AWS CodeDeploy"
+        ],
+        answer: 0,
+        explanation: "AWS CloudFormation automates infrastructure deployment using templates."
+    },
+    {
+        question: "Which AWS service provides a managed service for sending email notifications?",
+        choices: [
+            "Amazon SNS",
+            "Amazon SQS",
+            "Amazon SES",
+            "AWS Lambda"
+        ],
+        answer: 2,
+        explanation: "Amazon SES is a managed service for sending email notifications."
+    },
+    {
+        question: "A company needs to ensure compliance by tracking changes to AWS resources. Which service should they use?",
+        choices: [
+            "AWS Config",
+            "AWS CloudTrail",
+            "Amazon CloudWatch",
+            "AWS X-Ray"
+        ],
+        answer: 0,
+        explanation: "AWS Config tracks configuration changes and compliance for AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for running serverless APIs?",
+        choices: [
+            "Amazon API Gateway",
+            "AWS Lambda",
+            "Amazon EC2",
+            "Amazon ECS"
+        ],
+        answer: 0,
+        explanation: "Amazon API Gateway provides a managed service for running serverless APIs."
+    },
+    {
+        question: "A company wants to automate the backup of its databases. Which AWS service should they use?",
+        choices: [
+            "AWS Backup",
+            "Amazon RDS automated backups",
+            "Amazon S3 Lifecycle",
+            "AWS DataSync"
+        ],
+        answer: 0,
+        explanation: "AWS Backup automates the backup of databases and other AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for analyzing large datasets using SQL?",
+        choices: [
+            "Amazon Athena",
+            "Amazon Redshift",
+            "Amazon EMR",
+            "AWS Glue"
+        ],
+        answer: 0,
+        explanation: "Amazon Athena analyzes large datasets using SQL directly on S3."
+    },
+    {
+        question: "A company needs to provide secure remote access to AWS resources for its employees. Which solution should be used?",
+        choices: [
+            "AWS VPN Client",
+            "AWS Direct Connect",
+            "VPC Peering",
+            "AWS Transit Gateway"
+        ],
+        answer: 0,
+        explanation: "AWS VPN Client enables secure remote access for employees to AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for orchestrating microservices workflows?",
+        choices: [
+            "AWS Step Functions",
+            "AWS Lambda",
+            "Amazon ECS",
+            "Amazon SQS"
+        ],
+        answer: 0,
+        explanation: "AWS Step Functions orchestrates microservices workflows using state machines."
+    },
+    {
+        question: "A company wants to enforce encryption for all objects uploaded to S3. What is the best solution?",
+        choices: [
+            "Enable S3 default encryption",
+            "Use S3 bucket ACLs",
+            "IAM user policies",
+            "S3 Lifecycle policies"
+        ],
+        answer: 0,
+        explanation: "Enabling S3 default encryption ensures all uploaded objects are encrypted automatically."
+    },
+    {
+        question: "Which AWS service provides a managed service for monitoring and alerting on AWS resources?",
+        choices: [
+            "Amazon CloudWatch",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS X-Ray"
+        ],
+        answer: 0,
+        explanation: "Amazon CloudWatch provides monitoring, metrics, and alerting for AWS resources."
+    },
+    {
+        question: "A company needs to migrate terabytes of data from on-premises to AWS quickly. Which service should they use?",
+        choices: [
+            "AWS DataSync",
+            "AWS Snowball",
+            "AWS Storage Gateway",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        answer: 1,
+        explanation: "AWS Snowball is a physical device for fast, secure migration of large amounts of data to AWS."
+    }
+
+        ,
+    {
+        question: "A company needs to run a high-performance computing workload that requires hundreds of cores for a few hours. Which AWS service is most cost-effective?",
+        choices: [
+            "Amazon EC2 On-Demand",
+            "Amazon EC2 Reserved",
+            "Amazon EC2 Spot",
+            "AWS Lambda"
+        ],
+        answer: 2,
+        explanation: "EC2 Spot Instances are ideal for short-lived, high-performance workloads at a lower cost."
+    },
+    {
+        question: "Which AWS service allows you to create custom network appliances in your VPC?",
+        choices: [
+            "AWS Network Firewall",
+            "Amazon EC2",
+            "AWS Transit Gateway",
+            "AWS Gateway Load Balancer"
+        ],
+        answer: 3,
+        explanation: "AWS Gateway Load Balancer enables deployment of custom network appliances in your VPC."
+    },
+    {
+        question: "A company wants to automate the rotation of database credentials. Which AWS service should they use?",
+        choices: [
+            "AWS KMS",
+            "AWS Secrets Manager",
+            "AWS IAM",
+            "Amazon RDS"
+        ],
+        answer: 1,
+        explanation: "AWS Secrets Manager can automatically rotate database credentials."
+    },
+    {
+        question: "Which AWS service provides a managed Hadoop ecosystem for big data processing?",
+        choices: [
+            "Amazon EMR",
+            "AWS Glue",
+            "Amazon Redshift",
+            "Amazon Athena"
+        ],
+        answer: 0,
+        explanation: "Amazon EMR provides a managed Hadoop ecosystem for big data processing."
+    },
+    {
+        question: "A company needs to enforce encryption for all data stored in Amazon RDS. What should they enable?",
+        choices: [
+            "RDS encryption at rest",
+            "IAM policies",
+            "S3 default encryption",
+            "CloudTrail logging"
+        ],
+        answer: 0,
+        explanation: "Enabling RDS encryption at rest ensures all data is encrypted."
+    },
+    {
+        question: "Which AWS service provides a managed service for running Microsoft SQL Server databases?",
+        choices: [
+            "Amazon Aurora",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon Redshift"
+        ],
+        answer: 1,
+        explanation: "Amazon RDS supports managed Microsoft SQL Server databases."
+    },
+    {
+        question: "A company wants to restrict access to its VPC subnets based on security policies. Which feature should they use?",
+        choices: [
+            "Security Groups",
+            "Network ACLs",
+            "IAM roles",
+            "VPC Peering"
+        ],
+        answer: 1,
+        explanation: "Network ACLs allow you to restrict access to VPC subnets based on security policies."
+    },
+    {
+        question: "Which AWS service provides a managed service for real-time data streaming?",
+        choices: [
+            "Amazon Kinesis",
+            "Amazon SQS",
+            "Amazon SNS",
+            "AWS Glue"
+        ],
+        answer: 0,
+        explanation: "Amazon Kinesis provides managed real-time data streaming."
+    },
+    {
+        question: "A company needs to store large volumes of log data for analysis. Which AWS service is best?",
+        choices: [
+            "Amazon S3",
+            "Amazon EFS",
+            "Amazon DynamoDB",
+            "Amazon RDS"
+        ],
+        answer: 0,
+        explanation: "Amazon S3 is ideal for storing large volumes of log data for analysis."
+    },
+    {
+        question: "Which AWS service provides a managed service for running Docker containers without managing servers?",
+        choices: [
+            "Amazon ECS with Fargate",
+            "Amazon EC2",
+            "Amazon EKS",
+            "AWS Lambda"
+        ],
+        answer: 0,
+        explanation: "Amazon ECS with Fargate runs Docker containers without server management."
+    },
+    {
+        question: "A company wants to monitor and analyze DNS queries for security threats. Which AWS service should they use?",
+        choices: [
+            "Amazon GuardDuty",
+            "AWS Shield",
+            "AWS WAF",
+            "AWS Firewall Manager"
+        ],
+        answer: 0,
+        explanation: "Amazon GuardDuty analyzes DNS queries for security threats."
+    },
+    {
+        question: "Which AWS service provides a managed service for storing and retrieving secrets?",
+        choices: [
+            "AWS Secrets Manager",
+            "AWS KMS",
+            "AWS IAM",
+            "Amazon S3"
+        ],
+        answer: 0,
+        explanation: "AWS Secrets Manager securely stores and retrieves secrets."
+    },
+    {
+        question: "A company needs to ensure that only authorized users can access its EC2 instances. Which feature should they use?",
+        choices: [
+            "Security Groups",
+            "IAM roles",
+            "Key pairs",
+            "Network ACLs"
+        ],
+        answer: 2,
+        explanation: "Key pairs are used to authenticate authorized users for EC2 instance access."
+    },
+    {
+        question: "Which AWS service provides a managed service for building and deploying machine learning models?",
+        choices: [
+            "Amazon SageMaker",
+            "Amazon EMR",
+            "AWS Lambda",
+            "Amazon Redshift"
+        ],
+        answer: 0,
+        explanation: "Amazon SageMaker is a managed service for building and deploying machine learning models."
+    },
+    {
+        question: "A company wants to automate the deployment of infrastructure using templates. Which AWS service should they use?",
+        choices: [
+            "AWS CloudFormation",
+            "AWS OpsWorks",
+            "AWS Elastic Beanstalk",
+            "AWS CodeDeploy"
+        ],
+        answer: 0,
+        explanation: "AWS CloudFormation automates infrastructure deployment using templates."
+    },
+    {
+        question: "Which AWS service provides a managed service for sending email notifications?",
+        choices: [
+            "Amazon SNS",
+            "Amazon SQS",
+            "Amazon SES",
+            "AWS Lambda"
+        ],
+        answer: 2,
+        explanation: "Amazon SES is a managed service for sending email notifications."
+    },
+    {
+        question: "A company needs to ensure compliance by tracking changes to AWS resources. Which service should they use?",
+        choices: [
+            "AWS Config",
+            "AWS CloudTrail",
+            "Amazon CloudWatch",
+            "AWS X-Ray"
+        ],
+        answer: 0,
+        explanation: "AWS Config tracks configuration changes and compliance for AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for running serverless APIs?",
+        choices: [
+            "Amazon API Gateway",
+            "AWS Lambda",
+            "Amazon EC2",
+            "Amazon ECS"
+        ],
+        answer: 0,
+        explanation: "Amazon API Gateway provides a managed service for running serverless APIs."
+    },
+    {
+        question: "A company wants to automate the backup of its databases. Which AWS service should they use?",
+        choices: [
+            "AWS Backup",
+            "Amazon RDS automated backups",
+            "Amazon S3 Lifecycle",
+            "AWS DataSync"
+        ],
+        answer: 0,
+        explanation: "AWS Backup automates the backup of databases and other AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for analyzing large datasets using SQL?",
+        choices: [
+            "Amazon Athena",
+            "Amazon Redshift",
+            "Amazon EMR",
+            "AWS Glue"
+        ],
+        answer: 0,
+        explanation: "Amazon Athena analyzes large datasets using SQL directly on S3."
+    },
+    {
+        question: "A company needs to provide secure remote access to AWS resources for its employees. Which solution should be used?",
+        choices: [
+            "AWS VPN Client",
+            "AWS Direct Connect",
+            "VPC Peering",
+            "AWS Transit Gateway"
+        ],
+        answer: 0,
+        explanation: "AWS VPN Client enables secure remote access for employees to AWS resources."
+    },
+    {
+        question: "Which AWS service provides a managed service for orchestrating microservices workflows?",
+        choices: [
+            "AWS Step Functions",
+            "AWS Lambda",
+            "Amazon ECS",
+            "Amazon SQS"
+        ],
+        answer: 0,
+        explanation: "AWS Step Functions orchestrates microservices workflows using state machines."
+    },
+    {
+        question: "A company wants to enforce encryption for all objects uploaded to S3. What is the best solution?",
+        choices: [
+            "Enable S3 default encryption",
+            "Use S3 bucket ACLs",
+            "IAM user policies",
+            "S3 Lifecycle policies"
+        ],
+        answer: 0,
+        explanation: "Enabling S3 default encryption ensures all uploaded objects are encrypted automatically."
+    },
+    {
+        question: "Which AWS service provides a managed service for monitoring and alerting on AWS resources?",
+        choices: [
+            "Amazon CloudWatch",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS X-Ray"
+        ],
+        answer: 0,
+        explanation: "Amazon CloudWatch provides monitoring, metrics, and alerting for AWS resources."
+    },
+    {
+        question: "A company needs to migrate terabytes of data from on-premises to AWS quickly. Which service should they use?",
+        choices: [
+            "AWS DataSync",
+            "AWS Snowball",
+            "AWS Storage Gateway",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        answer: 1,
+        explanation: "AWS Snowball is a physical device for fast, secure migration of large amounts of data to AWS."
+    }
+    
 ]; // <-- Properly close the questions array
 
 // Insert your quiz logic script below this line
